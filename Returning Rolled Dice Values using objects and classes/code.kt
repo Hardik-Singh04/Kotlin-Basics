@@ -1,20 +1,16 @@
 fun main() 
 {
     val myfirstdice=Dice(6)
-    val dice1=myfirstdice.roll()
-    println("Your ${myfirstdice.Sides} sided dice rolled ${dice1}!")
+    println("Your ${myfirstdice.Sides} sided dice rolled ${myfirstdice.roll()}!")
     
     val myseconddice = Dice(20)
-    val dice2=myseconddice.roll()
-    println("Your ${myseconddice.Sides} sided dice rolled ${dice2}!")
+    println("Your ${myseconddice.Sides} sided dice rolled ${myseconddice.roll()}!")
     
     val mythirddice = Dice(40)
-    val dice3 = mythirddice.roll()
-    println("Your ${mythirddice.Sides} sided dice rolled ${dice3}!")
+    println("Your ${mythirddice.Sides} sided dice rolled ${mythirddice.roll()}!")
     
     val myfourthdice = Dice(60)
-    val dice4 = myfourthdice.roll()
-    println("Your ${myfourthdice.Sides} sided dice rolled ${dice4}!")
+    println("Your ${myfourthdice.Sides} sided dice rolled ${myfourthdice.roll()}!")
 }
 
 class Dice (val Sides: Int) 
